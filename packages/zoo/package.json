@@ -1,5 +1,5 @@
 {
-  "name": "@tuskdesign/zoo",
+  "name": "@xrepo/zoo",
   "version": "1.2.0",
   "description": "",
   "main": "./dist/index.js",
@@ -17,8 +17,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tuskdesign/animals": "*",
-    "@tuskdesign/names": "*"
+    "@xrepo/animals": "*",
+    "@xrepo/names": "*"
   },
   "devDependencies": {
     "@types/node": "18.16.9",

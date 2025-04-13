@@ -1,7 +1,8 @@
 {
-  "name": "@tuskdesign/source",
+  "name": "@xrepo/source",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "applications/*"
   ],
   "version": "1.0.0",
   "description": "",

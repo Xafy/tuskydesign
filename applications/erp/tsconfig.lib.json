@@ -1,21 +1,22 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "baseUrl": ".",
-    "rootDir": ".",
-    "jsx": "react-jsx",
+    "target": "ESNext",
+    "moduleResolution": "nodenext",
+    "module": "NodeNext",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    // "allowImportingTsExtensions": true,
+    "emitDeclarationOnly": false,
     "allowJs": true,
+    "declaration": true,
+    "baseUrl": ".",
+    "rootDir": "src",
     "outDir": "dist",
     "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo",
-    "emitDeclarationOnly": false,
-    "declaration": true,
-    "types": [
-      "node"
-    ]
+    "types": ["node"],
   },
-  "include": [
-    "**/*.ts"
-  ],
+  "include": ["src/**/*", "src/main.ts"],
   "references": [],
   "exclude": [
     "dist",
